@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 1000%;
+}
+
+.first {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#timezone {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #009056;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  word-spacing: 3px;
+}
+
+#timezone p {
+  display: inline;
+}
