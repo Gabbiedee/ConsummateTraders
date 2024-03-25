@@ -34,6 +34,13 @@ div {
   width: 100%;
 }
 
+#Monthly-deal {
+  float: right;
+}
+
+.naira-rate {
+  color: red;
+}
 #timezone {
   position: fixed;
   bottom: 0;
@@ -47,4 +54,7 @@ div {
 
 #timezone p {
   display: inline;
+}
+.user-data {
+  float: right;
 }
